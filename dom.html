@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p class="paragrafo">Apredendo a usar o <strong>DOM</strong> em Javascript</p>
+    <div id="msg">Aperte aqui</div>
+    <script>
+        let p1 = document.getElementsByTagName('p')[0];
+        window.document.write(p1.innerText);
+
+        let div = document.getElementById('msg');
+        div.style.background = "yellow"
+
+        let p2 = document.getElementsByClassName('paragrafo')[0];
+        p2.style.background = "blue"
+        p2.style.color = "white"
+    </script>
+</body>
+</html>
