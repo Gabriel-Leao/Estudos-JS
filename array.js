@@ -8,7 +8,7 @@ for (let pos = 0; pos < num.length; pos++) {
     console.log(`O item no índice ${pos} tem o valor de ${num[pos]}`)
 }
 
-let nomes = ["Gabriel", "Leão", "Sue", "Mayara", "Hugo", "Eliza"]
+let nomes = ["Gabriel", "Leão", "Sue", "John", "Hugo", "Eliza"]
 
 for (let pos in nomes) {
     console.log(`O nome na posição ${pos} é igual a ${nomes[pos]}`)
