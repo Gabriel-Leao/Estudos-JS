@@ -1,20 +1,27 @@
 let agora = new Date
 let dia__semana = agora.getDay()
 
-// Sempre usar o break exceto se tiver um return não precisa
+// Sempre usar o break exceto se tiver um return ai não precisa
 switch(dia__semana) {
     case 0:
-       return console.log("Hoje é Domingo")
+      console.log("Hoje é Domingo")
+      break
     case 1:
-       return console.log("Hoje é Segunda")
+      console.log("Hoje é Segunda")
+      break
     case 2:
-       return console.log("Hoje é Terça")
+      console.log("Hoje é Terça")
+      break
     case 3:
-       return console.log("Hoje é Quarta")
+      console.log("Hoje é Quarta")
+      break
     case 4:
-       return console.log("Hoje é Quinta")
+      console.log("Hoje é Quinta")
+      break
     case 5:
-       return console.log("Hoje é Sexta")
+      console.log("Hoje é Sexta")
+      break
     case 6:
-       return console.log("Hoje é Sábado") 
+      console.log("Hoje é Sábado")
+      break
 }
