@@ -25,20 +25,19 @@ const latinhasAtualizada = latinhas.slice(1, -1)
 latinhas.pop()
 
 const fruits = ["🍎", "🍇"]
+console.log(`Essa é a minha lista de frutas ${fruits}`)
+
+// O reverse reverte a ordem dos itens no array. Ele altera o array original, então é preciso destruturar ele para que isso não aconteça
+const fruitsReverse = [...fruits].reverse()
+console.log(`Essas é a minha lista frutas ao contrário ${fruitsReverse}`)
 
 // Transforma todos os itens dentro do array fruits em maçãs e gera um novo array
 const apple = fruits.map(fruta => {
     return "🍎"
 })
+console.log(`Agora só tem maçãs ${apple}`)
 
-console.log(fruits)
-console.log(apple)
-
-// O reverse reverte a ordem dos itens no array. Ele altera o array original, então é preciso destruturar ele para que isso não aconteça
-const fruitsReverse = [...fruits].reverse()
-console.log(fruitsReverse)
-
-// O forEach() não retorna um novo array e nem altera o original, ele apenas faz algo para todos os itens dento do array. É um for para arrays
-fruits.forEach(fruit => {
-    console.log(fruit)
+// O forEach() não retorna um novo array e nem altera o original, ele apenas faz algo para todos os itens dentro do array. É um for para arrays
+fruits.forEach((fruit, index) => {
+    console.log(`Essa é a minha ${index+1}° fruta ${fruit}`)
 })
