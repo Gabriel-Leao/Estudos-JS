@@ -1,4 +1,3 @@
-
 // A callback function executa uma função depois de determinada ação, muito utilizada na parte assíncrona do JS
 console.log(`========================================================`)
 console.log("=== callback function assíncrona ===")
