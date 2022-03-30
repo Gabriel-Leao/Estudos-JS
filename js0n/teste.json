@@ -1,7 +1,14 @@
-{
-    "Pessoas": [{
-    "nome": "Gabriel Leão",
-    "idade": 18
-        }
-    ]
-}
+[
+    {
+        "nome": "Gabriel",
+        "idade": 18
+    },
+    {
+        "nome": "Matheus",
+        "idade": 30
+    },
+    {
+        "nome": "João",
+        "idade": 22
+    }
+]
